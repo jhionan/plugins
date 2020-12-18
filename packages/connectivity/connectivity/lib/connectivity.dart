@@ -7,8 +7,7 @@ import 'dart:async';
 import 'package:connectivity_platform_interface/connectivity_platform_interface.dart';
 
 // Export enums from the platform_interface so plugin users can use them directly.
-export 'package:connectivity_platform_interface/connectivity_platform_interface.dart'
-    show ConnectivityResult, LocationAuthorizationStatus;
+export 'package:connectivity_platform_interface/connectivity_platform_interface.dart';
 
 /// Discover network connectivity configurations: Distinguish between WI-FI and cellular, check WI-FI status and more.
 class Connectivity {
